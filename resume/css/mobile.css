@@ -1,0 +1,48 @@
+body{
+    background: rgb(33, 110, 141);
+}
+.container{
+    width: 100%;
+}
+.l-list{
+    width: 100%;
+    float: none;
+    background: rgb(33, 110, 141);
+}
+.r-list{
+    width: 100%;
+    float: none;
+    margin: 0;
+    background: rgb(33, 110, 141);
+}
+.right{
+    background-color: #efefef;
+    border-radius: 15px;
+    padding-right: 15px;
+    height: 1000px;
+}
+.left{
+    height: 700px;
+}
+.fir{
+    display: block;
+    clear: both;
+}
+.sec{
+    display: block;
+    clear: both;
+}
+.fir ul li{
+    float: left;
+    width: 100%;
+}
+.fir ul li:last-child{
+    clear: both;
+}
+.sec ul li{
+    float: left;
+    width: 100%;
+}
+.sec ul li:last-child{
+    clear: both;
+}

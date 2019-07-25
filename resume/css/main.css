@@ -1,0 +1,145 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    list-style-type: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: background 200ms;
+    -moz-transition: background 200ms;
+    -ms-transition: background 200ms;
+    -o-transition: background 200ms;
+    transition: background 200ms;
+}
+h3{
+    border-bottom: 1px solid rgb(146, 142, 142);
+    padding-left: 15px;
+    padding-top: 15px;
+}
+p{
+    text-align: justify;
+    text-indent: 2em;
+    padding-left: 15px;
+}
+a{
+    padding-left: 15px;
+    text-decoration: none;
+    outline: none;
+}
+.container{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+body{
+    text-decoration: none;
+    background: #bfb3b3;
+    word-wrap:break-word;
+}
+.p-resume{
+    padding-top: 20px;
+    height: 768px;
+}
+.left {
+    background-color: rgb(33, 110, 141);
+    height: 800px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding: 0 8px;
+    border-radius: 10px;
+}
+.right {
+    height: 800px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.l-list {
+    float: left;
+    width: 35%;
+    line-height:2;
+    background-color: rgb(239, 239, 239);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    color: rgb(244, 244, 245);
+}
+.r-list {
+    float: right;
+    width: 65%;
+    background-color: #efefef;
+    line-height: 2;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.intro {
+    text-align: center;
+    clear: both;
+    margin-top: 15px;
+    background-color: rgb(33, 110, 141);
+}
+
+.logo {
+    max-width: 100px;
+    max-height:120px;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    }
+.name{
+    font-size: 25px;
+}
+.post,
+.yellow{
+    color:#FAE001;
+}
+.personal {
+    background-color: rgb(33, 110, 141);
+}
+.objective{
+    background-color: rgb(33, 110, 141);
+}
+span{
+    color:#999898;
+}
+ul{
+    padding-left: 15px;
+}
+.fir{
+    display: block;
+    clear: both;
+}
+.sec{
+    display: block;
+    clear: both;
+}
+.fir ul li{
+    float: left;
+    width: 50%;
+}
+.fir ul li:last-child{
+    clear: both;
+}
+.sec ul li{
+    float: left;
+    width: 50%;
+}
+.sec ul li:last-child{
+    clear: both;
+}
+.skill {
+    display: block;
+    clear: both;
+}
+.project{
+    clear: both;
+    display: block;
+}
